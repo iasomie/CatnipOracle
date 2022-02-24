@@ -1,0 +1,75 @@
+<html>
+    
+    <head>
+        <title>Kitty Oracle</title>
+        <style>
+            body{
+                color:white;
+            }
+            .header_background{
+                background: rgb(0, 0, 0);
+            }
+            
+            table, th, td {
+                border-width: 2px;
+                border-style: solid;
+                border-color: goldenrod
+            }
+            th{
+                color: white;
+                background :rgb(110, 112, 224);
+            }
+            .container {
+            position: relative;
+            text-align: center;
+            font-size: 15pt;
+            }
+            .kittybutton {
+            background-color: #279a9c;
+            border: none;
+            color: white;
+            padding: 3px 6px;
+            text-align: center;
+            margin: 2px 1px;
+            opacity: 0.6;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+            }
+            .kittybutton:hover {opacity: 1}
+            .kittyinput {
+                border: 2px #279a9c;
+                border-radius: 4px;
+                margin: 2px 1px;
+                padding: 3px 6px;
+            }
+
+
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    </head>
+    <body style="background: rgb(214, 184, 10)">
+        <div class="header">
+            <img src="catnipwhite.png" style="width: 400px">
+        </div>
+
+        <div class="container">
+            <img src="query.gif" class="img-fluid center-block d-block" style="width:100%; height: auto;" alt="Funky Cat"/> 
+            <div style="position:absolute;bottom:0%;left:50%;transform: translate(-50%, -50%)">
+
+                <input class="kittyinput" autofocus placeholder="Meaningful question" type="text">
+                <a href="OracleResults.html" class="kittybutton">Ask Kitty</a>
+                </form>
+                
+            </div>
+            
+        </div>
+
+     
+        <div>
+            <p style="text-align:center; color:white">For enquiries, please talk to your neighbourhood feline representative.</p>
+        </div>
+    </body>
+</html>

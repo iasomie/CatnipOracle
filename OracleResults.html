@@ -1,0 +1,118 @@
+<html>
+    
+    <head>
+        <title>Kitty Results</title>
+        <style>
+             .how-right img {
+                float:center;
+                margin-right:20px;
+                margin-left:20px;
+                margin-bottom: 60px;
+                vertical-align:middle;
+            }
+            span {
+                height: 259px;            
+                display: table-cell;
+                vertical-align: middle;
+                text-align: right;
+            }
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgb(214, 184, 10);
+                color: white;
+                text-align: center;
+                }
+</style>
+        </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <script type="text/javascript"> 
+
+        function loadrandom (){
+        var elems  = [document.getElementById("rd1"),document.getElementById("rd2"),document.getElementById("rd3"),document.getElementById("rd4"),document.getElementById("rd5"),document.getElementById("rd6"),document.getElementById("rd7"),document.getElementById("rd8"),document.getElementById("rd9")];
+        for(var i=0;i<elems.lenght;i++)
+        elems[i].style.display="none";
+        var randomvalue = Math.floor(Math.random() * (elems.length-1));
+        console.log(randomvalue, elems.length, elems)
+        elems[randomvalue].style.display="block";
+        }
+        </script>
+
+    </head>
+    <body onload="loadrandom()" style="background-color: azure; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+       
+        <body >
+            <div class="header" style="background: rgb(214, 184, 10)">
+                <img src="catnipwhite.png" style="width: 400px">
+            </div>
+
+    <div> <br/><h1 style="color:rgb(50, 50, 50); text-align: center; font-weight: bold; ">Your Fortune<h1></h1> <br/></div>
+
+    <div style="text-align: center; display:block; margin-left: auto; margin-right: auto; width:50%">
+
+        <div id="rd1" style="display:none;">
+            <p>Hello darkness my old friend...<br/>This is a time for solitude and introspection.<br/>How do you find a black cat in a dark room?<br/>Not by chasing it, that's for sure.</p>
+
+        <img src="cat1.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div>
+    
+        <div id="rd2" style="display:none;">
+            <p>A purrfect performance? Or a cacophony of caterwauling?<br/>Who's stepping on your tail?<br/>This is the time to cultivate community and harmony.<br/>No cat is an island, after all!</p>
+
+            <img src="cat2.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div>
+    
+        <div id="rd3" style="display:none;">
+            <p>Tempting...<br/>You want to get your paws dirty.<br/>Opportunities abound, but mind you don't fall into the water!</p>
+
+            <img src="cat3.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div>   
+
+        <div id="rd4" style="display:none;">
+            <p>Have you been feeling playful lately?<br/>You're allowed to act like a kitten sometimes!<br/>If you've been taking life too seriously, go and paw at a ball of yarn.<br/>You'll thank me later.</p>
+
+            <img src="cat4.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div> 
+
+        <div id="rd5" style="display:none;">
+            <p>Naughty kitty!<br/>Looks like you've been up to no good.<br/>You may have nine lives, but you won't get away with everything.<br/>Watch your step.</p>
+
+            <img src="cat5.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div> 
+
+        <div id="rd6" style="display:none;">
+            <p>Are you taking time to enjoy the good things in life?<br/>Life is full of abundance and sweetness.<br/>If you can't see it yet, just have a little patience.<br/>The good cat always gets the cream!</p>
+
+            <img src="cat6.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div> 
+
+        <div id="rd7" style="display:none;">
+            <p>Do you sometimes feel like an imposter?<br/>Like you're not even a cat at all?<br/>That's perfectly natural.<br/>Keep brushing those whiskers and licking those paws -- as they say, fake it till you make it.</p>
+
+            <img src="cat7.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div>
+            
+        <div id="rd8" style="display:none;">
+            <p>Do you remember what it was like to be small and vulnerable?<br/>We all need help sometimes.<br/>Luckily, being so adorable, you'll never have trouble getting assistance.<br/>Just mind you let go of your feline ego first!</p>
+
+            <img src="cat8.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div> 
+
+        <div id="rd9" style="display:none;">
+            <p>Feeling like a cat trying to climb up a tree?<br/>You're a cat, not a squirrel!<br/>Learn to appreciate your strengths and your weaknesses.<br/>You'll thrive when you find your element.</p>
+
+            <img src="cat9.jpg" class="img-fluid center-block d-block" style=" height: auto; margin-bottom: 60px;"/> 
+        </div> 
+        
+
+    </div>
+    
+
+    <div class="footer">
+        <p>All cat pictures are in the public domain.</p>
+    </div>
+    </body>
+</html>
